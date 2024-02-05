@@ -33,7 +33,7 @@ This source code should be locate in the same directory as the input file.
 This is an example for the *Panel.inp*.
 
 ```bash
-$ python3 solver-input-edit.py
+$ python3 main.py
 Enter file name : $()
 Enter variable name : $()
 Enter start boundary : $()
