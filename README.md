@@ -23,6 +23,8 @@ aoa    aos    mach     Re
 0.0    0.0    0.5      1e6
 ```
 
+The 1st input file can utilze this code, while the 2nd input file can't.
+
 For the AADL's in-house code, the UMSAPv and IUPAN can use this code, but it doesn's operate in MSAPv's input file.
 
 ## User Guide
@@ -32,7 +34,7 @@ This is an example for the *Panel.inp*.
 
 ```bash
 $ python3 solver-input-edit.py
-Enter file name : 
+Enter file name : $()
 Enter variable name : $()
 Enter start boundary : $()
 Enter end boundary : $()
